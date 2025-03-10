@@ -252,9 +252,10 @@
 ```bash
 conda env create -f environment.yml
 ```
+
 🔧 **变量定义**
-📂 **`<dat_path>`**：指每个 `.dat` 文件解析后生成的对应文件夹路径。  
-🖥 **`<server_path>`**：指原始数据服务器存储路径 `ssh://125.220.153.26/mnt/storage/gyx/`。
+- 📂 **`<dat_path>`**：指每个 `.dat` 文件解析后生成的对应文件夹路径。  
+- 🖥 **`<server_path>`**：指原始数据服务器存储路径 `ssh://125.220.153.26/mnt/storage/gyx/`。
 
 🌍 **服务器路径**
 - **数据集代码**：`ssh://125.220.153.57:/home/gyx/project/MH-CDNet/`
