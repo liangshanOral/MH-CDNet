@@ -1,7 +1,5 @@
 # 🚀 **MH-CDNet: Map- and History-Aided Change Detection of Traffc Signs in High-Defnition Maps**  
 
-![pipeline](sources/pipeline.pdf)
-
 ## 📌 **项目概述**  
 本项目提出了一种 **交通标志变化检测系统**，涵盖 **数据处理、模型训练** 及 **模型微调** 三大模块。该系统利用 **多传感器数据融合**，结合 **历史轨迹与高精度地图信息**，实现对交通标志变化的智能检测与推理，并优化模型性能以适应实际应用场景。  
 
@@ -182,7 +180,6 @@
 ---
 
 ## 🔥 **模型设计**
-![components](sources/components.png)
 
 ### 📊 **数据集构建**
 - **数据格式**  
