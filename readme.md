@@ -169,8 +169,8 @@
 2️⃣ **数据筛选与统计**  
    - **人工筛选** 增强后的数据，找到不同类型事件：
      ```bash
-     python data_parser/postprocess_sign/find_FP.py
-     python data_parser/postprocess_sign/find_NP.py
+     python data_parser/augment/find_FP.py
+     python data_parser/augment/find_NP.py
      ```
    - **统计最终增强后的数据集**：
      ```bash
@@ -249,6 +249,7 @@
 
 ## ⚙ **环境配置**
 📦 **依赖安装**
+✅ 方式一：使用 YAML 文件创建环境（适用于联网环境）
 ```bash
 conda env create -f environment.yml
 ```
@@ -259,7 +260,7 @@ conda env create -f environment.yml
 
 🌍 **服务器路径**
 - **数据集代码**：`ssh://125.220.153.57:/home/gyx/project/MH-CDNet/`
-- **完整代码**：`/home/gyx/project/MH-CDNet_all/`
-- **打包数据集**（约 **200GB**）：`/home/gyx/project/MH-CDNet.tar.gz`  
+- **完整代码**：`ssh://125.220.153.57:/home/gyx/project/MH-CDNet_all/`
+- **打包数据集**（约 **200GB**）：`ssh://125.220.153.57:/home/gyx/project/MH-CDNet.tar.gz`  
 
 ⚠ **由于文件大小限制，GitHub 目前仅提供整理后的数据表格与核心代码。运行代码还需要以下资源：clip_model、traffic_sign_dataset、traffic_sign_dataset_sample 和 traffic_sign_dataset_mask。下载请参考数据集代码路径**
