@@ -255,7 +255,7 @@ conda env create -f environment.yml
 ```
 
 - 方式二：使用 Conda Pack 打包环境（适用于离线部署）
-已使用 conda-pack 打包运行环境为 **MH-CDNet-env.tar.gz**，适用于无网络环境下快速部署。
+   已使用 conda-pack 打包运行环境为 **MH-CDNet-env.tar.gz**，适用于无网络环境下快速部署。
    - 📦 **环境包路径**: `ssh://125.220.153.57:/home/gyx/project/MH-CDNet/MH-CDNet-env.tar.gz`
 
 
